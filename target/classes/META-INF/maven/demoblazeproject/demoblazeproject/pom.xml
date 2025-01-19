@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
@@ -10,15 +9,6 @@
 
   <name>demoblazeproject</name>
   <!-- FIXME change it to the project's website -->
-=======
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>SeleniumGoal</groupId>
-  <artifactId>SeleniumPractiseAndExrecise</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-
-  <name>SeleniumPractiseAndExrecise</name>
->>>>>>> origin/main
   <url>http://www.example.com</url>
 
   <properties>
@@ -44,21 +34,14 @@
       <artifactId>junit-jupiter-api</artifactId>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
     <!-- Optionally: parameterized tests support -->
-=======
->>>>>>> origin/main
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
-<<<<<<< HEAD
     
      <dependency>
-=======
-    <dependency>
->>>>>>> origin/main
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
         <version>4.27.0</version>
@@ -75,7 +58,6 @@
       <artifactId>slf4j-simple</artifactId>
       <version>2.0.9</version>
     </dependency>
-<<<<<<< HEAD
     
     <!-- TestNG dependency -->
     <dependency>
@@ -92,21 +74,11 @@
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
-=======
-  </dependencies>
-
-  <build>
-    <pluginManagement>
-      <plugins>
->>>>>>> origin/main
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
           <version>3.4.0</version>
         </plugin>
-<<<<<<< HEAD
         <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-=======
->>>>>>> origin/main
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
           <version>3.3.1</version>
@@ -131,10 +103,7 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>3.1.2</version>
         </plugin>
-<<<<<<< HEAD
         <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
-=======
->>>>>>> origin/main
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
           <version>3.12.1</version>
